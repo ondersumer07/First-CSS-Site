@@ -1,0 +1,171 @@
+
+/*------------------------------TAGS-------------------------------*/
+
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50px auto 0px auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;                      /*16px = 1em/rem = 100%*/
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: #66BFBF;
+  margin-bottom: 35px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border-width: 7px;
+  border: 0;
+  border-top: 7px;
+  width: 5%;
+  border-style: dotted;
+  color: #EAF6F6;
+  margin: 100px auto 100px auto;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin: auto 1.2rem auto 1.2rem;
+  text-decoration: none;
+}
+a:hover {
+  color: #EAF6F6
+}
+
+/*------------------------------CLASSES-------------------------------*/
+
+.bottom-container {
+  background-color: #66BFBF;
+  margin: 50px 0 0 0;
+  padding: 50px;
+  vertical-align: middle;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 450px;
+  bottom: 320px;
+}
+
+.btn {
+	box-shadow: 0px 1px 0px 0px #f0f7fa;
+	background:linear-gradient(to bottom, #11999e 5%, #11cdd4 100%);
+	background-color:#33bdef;
+	border-radius:10px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	padding:9px 24px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+  margin: 50px auto 30px auto;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #2bc4ad 5%, #30E3CB  100%);
+	background-color:#019ad2;
+}
+
+
+.contact-p {
+  width: 35%;
+  margin: auto;
+}
+
+.computer {
+  border-radius: 100%
+}
+
+.every {
+  text-decoration: underline;
+}
+
+.footer-copy {
+  color: #EAF6F6;
+  position: relative;
+  top: 1rem;
+  font-size: 0.90rem;
+}
+
+.freelance {
+  margin: 50px 0 50px 0;
+}
+
+.headertext {
+  line-height: 2;
+}
+
+.middle-container {
+  color: #40514E;
+}
+
+.pentool {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.profile {
+  width: 30%;
+  margin: auto;
+}
+
+.profile-picture {
+  border-radius: 100%;
+  display: inline;
+  width: 30%;
+  margin: 50px auto 25px auto;
+}
+
+.subtitle {
+  font-weight: bold;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.videoedit {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+
+.top-container {
+  margin: 0;
+  background-color: #e4f9f5;
+  padding-top: 100px;
+  position: relative;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 500px;
+  top: 40px;
+}
